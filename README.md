@@ -1,5 +1,5 @@
 ## Welcome To Dart Doc
-##### Installing dart & Basic 
+#####Installing dart & Basic 
 
 ## System requirements:
 ###### Windows
@@ -10,16 +10,12 @@
 - Supported versions: Debian stable and Ubuntu LTS under standard support.
 - Supported architectures: x64, ia32, arm, arm64.
 ## 1. Install on Windows:
- ##### Step 1: Download Dart SDK [click](https://storage.googleapis.com/dart-archive/channels/stable/release/2.14.4/sdk/dartsdk-windows-ia32-release.zip)
+##### Step 1: Download Dart SDK [click](https://storage.googleapis.com/dart-archive/channels/stable/release/2.14.4/sdk/dartsdk-windows-ia32-release.zip)
  ##### Step 2: Extract zip file
  ##### Step 3: Run Dart Command
  ##### Step 4: Add Dart Path to PATH Environment Variable
  ##### Step 5: Restart Command Prompt
-
-
-## Conclusion
-we learned how to install Dart on Windows, to work with Dart programming.
-## 1. Install Dart on Linux:
+ ## 2. Install Dart on Linux:
 Install using apt-get
 Perform the following one-time setup:
 
@@ -48,7 +44,7 @@ $ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
 ```
 
 ## Conclusion
-we learned how to install Dart on Linux, to work with Dart programming.
+we learned how to install Dart on Windows and Linux, to work with Dart programming.
 ## 3.The basic concepts of Dart programming language:
 Now we will learn a very basic Dart program.
 
@@ -62,21 +58,6 @@ void main(){
     print('Hello World');
 }
 ```
-Save the file as hello.dart (hello is just a file's name)
-Open Command Prompt and go to the folder, in which the hello.dart file is saved.
-Execute the following command to run hello.dart present in the current working directory.
-
-![execute hello word](C:\Users\ريتا\Desktop\dart-hello-world.png)
-The program is run successfully and Hello World string is printed to console.
-- Every Dart application has a main function main()
-- void represents that the function returns nothing.
-- Empty parenthesis after main () represents that currently our main function does not take any arguments.
-- The body of main() function is enclosed in curly braces  { } .
-- print() is a high level Dart function that prints to console.
-
-## Conclusion
-We learned how to write a simple hello world program in Dart programming language and run it using dart command.
-
 Now we will learn variable in dart.
 
 #Dart Variables
@@ -110,9 +91,6 @@ void main(){
     a = 10;
 }
 ```
-
-## Conclusion
-Now, we learned how to declare and initialize variables, inference and explicit declaration.
 
 # Dart Comments
 We will learn three different types of comments supported by Dart programming language.
@@ -151,10 +129,6 @@ void main(){
 
 }
 ```
-## Conclusion
-We learned different types of commenting techniques and how to use them.
-
-
 # Dart Conditional Statements
 ###### Dart – If, If-Else, If-Else-If
 We will learn the syntax of Dart If statement, Dart If-Else statement and Dart If-Else-If.
@@ -187,9 +161,6 @@ if (boolean_expression_1) {
      //else block statement(s)
  }
 ```
-## Conclusion
-We learned about Dart Conditional Statements: If, If-Else and If-Else-If ladder.
-
 # Dart For Loop
 We will learn the syntax of for loop
 ##### Syntax of Dart For Loop
@@ -202,7 +173,7 @@ for (initialization; boolean_expression; update) {
 ```
 ###### In the following example, we will use Dart For Loop to calculate the factorial of a given number.
 ```
-void main(){ 
+void main(){
     var n = 6;
     var factorial = 1;
 
@@ -228,11 +199,6 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-
-## Conclusion
-
-We learned the syntax and how to use for loop with the help of example progra.
-
 # Dart List
 A List is simply an ordered group of objects.
 #### Step 1 − Declaring a list
