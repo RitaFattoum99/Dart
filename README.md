@@ -1,55 +1,25 @@
 ## Welcome To Dart Doc
-In this documentation, we will learn installing dart & the basic concepts of Dart programming language.
+#####Installing dart & Basic 
 
-##System requirements:
-######Windows
+## System requirements:
+###### Windows
 - Supported versions: Windows 10.
 - Supported architectures: x64, ia32.
 
-######Linux
+###### Linux
 - Supported versions: Debian stable and Ubuntu LTS under standard support.
 - Supported architectures: x64, ia32, arm, arm64.
-## 1. How to install Dart on Windows?
- - Step 1: Download Dart SDK
- - Step 2: Extract zip file
- - Step 3: Run Dart
- - Step 4: Add Dart Path to PATH Environment Variable
- - Step 5: Restart Command Prompt
-
-#### Step 1:
- Go to Dart SDK archive page.
- The URL is https://dart.dev/tools/sdk/archive.
- Click on the Dart SDK link. The download will start immediately and a zip file will be downloaded.
-![ Dart SDK ](C:\Users\ريتا\Desktop\dart-sdk-archive.png)
-
-#### Step 2:
-Extract the contents of Dart SDK zip file. The contents of the folder would be as shown below.
-![dart's folder ](C:\Users\ريتا\Desktop\dart-sdk-zip-extracted-contents.png)
-#### Step 3:
-You can run Dart command. Yeah!
-
-Open command prompt and navigate to the bin folder.
-
-Run the command dart.
-
-#### Step 4:
-As of now, you can run dart command only from bin folder of dart sdk. To run dart command from anywhere in your file system, add dart bin path to PATH environment variable.
-
-Open Environment Variables. Under System variables, click on Path and click Edit button.
-
-Edit environment variable window appears. Click on New and paste the dart sdk bin path as shown below.
-Click on OK. The changes will take effect if you restart your command prompt.
-
-#### Step 5:
-Close the existing command prompt window and open a new command prompt.
-
-Just run the dart command from any working directory. We shall run from D:\.
-
+## 1. Install on Windows:
+ ##### Step 1: Download Dart SDK [click](https://storage.googleapis.com/dart-archive/channels/stable/release/2.14.4/sdk/dartsdk-windows-ia32-release.zip)
+ ##### Step 2: Extract zip file
+ ##### Step 3: Run Dart Command
+ ##### Step 4: Add Dart Path to PATH Environment Variable
+ ##### Step 5: Restart Command Prompt
 
 
 ## Conclusion
 we learned how to install Dart on Windows, to work with Dart programming.
-## 1. How to install Dart on Linux?
+## 1. Install Dart on Linux:
 Install using apt-get
 Perform the following one-time setup:
 
@@ -83,7 +53,7 @@ we learned how to install Dart on Linux, to work with Dart programming.
 Now we will learn a very basic Dart program.
 
 
-######Dart – Hello World
+###### Dart – Hello World
 
 This sample program, prints Hello World to the console.
 Open a text editor and paste the following code.
@@ -112,7 +82,7 @@ Now we will learn variable in dart.
 #Dart Variables
 
 Dart is type-safe. So, most variables does not require explicit type declaration.
-#####Create a Variable
+##### Create a Variable
 You can create a variable using `var` keyword.
 
 ```
@@ -120,18 +90,18 @@ var a;
 ```
 As no value is assigned to the variable, and we did not mention the type explicitly, the type of variable would be Null and the value stored would be null.
 
-#####Assign Value to Variable
+##### Assign Value to Variable
 You can assign a value to the variable using assignment operator =.
 ```
 var a = 'Hello World';
 ```
 If you assign a value to variable, the type of the variable would be inferred from the value.
-#####Explicit Declaration
+##### Explicit Declaration
 ```
 String a = 'Hello World';
 ```
 
-#####Re-assign Variable with value of Different Datatye
+##### Re-assign Variable with value of Different Datatye
 Using dynamic keyword, you can reassign a variable with different datatype from the one that it is actually referencing.
 
 ```
@@ -144,14 +114,14 @@ void main(){
 ## Conclusion
 Now, we learned how to declare and initialize variables, inference and explicit declaration.
 
-#Dart Comments
+# Dart Comments
 We will learn three different types of comments supported by Dart programming language.
 
 - Single Line Comments
 - Block (Multi-line) Comments
 - Documentation Comments
 
-#####Single Line Comments
+##### Single Line Comments
 To write single line comments, use double forward slash //
 ```
 void main(){
@@ -159,7 +129,7 @@ void main(){
     //this is another comment
 }
 ```
-#####Block (Multi-Line) Comments
+##### Block (Multi-Line) Comments
 You can write multiple line comments enclosed between /* and */.
 ```
 void main(){
@@ -170,7 +140,7 @@ void main(){
     */
 }
 ```
-#####Documentation Comments
+##### Documentation Comments
 These comments are similar to single line comments. But are specially treated by IDEs and dartdoc libraries. You can use these documentation comments for documenting your classes, methods, etc., in the dart libraries you develop.
 
 Using some documentation preparation tools, you can generate documentation from code automatically.
@@ -185,11 +155,11 @@ void main(){
 We learned different types of commenting techniques and how to use them.
 
 
-#Dart Conditional Statements
-######Dart – If, If-Else, If-Else-If
+# Dart Conditional Statements
+###### Dart – If, If-Else, If-Else-If
 We will learn the syntax of Dart If statement, Dart If-Else statement and Dart If-Else-If.
 
-#####Syntax of Dart If Statement
+##### Syntax of Dart If Statement
 The syntax of if statement in Dart is shown below.
 ```
 if (boolean_expression) {
@@ -197,7 +167,7 @@ if (boolean_expression) {
  }
 ```
 
-#####Dart If-Else
+##### Dart If-Else
 The syntax of if statement in Dart is shown below.
 ```
 if (boolean_expression) {
@@ -206,7 +176,7 @@ if (boolean_expression) {
      //else block statement(s)
  }
 ```
-#####Dart If-Else-If
+##### Dart If-Else-If
  The syntax of if statement in Dart is shown below.
 ```
 if (boolean_expression_1) {
@@ -217,12 +187,12 @@ if (boolean_expression_1) {
      //else block statement(s)
  }
 ```
-##Conclusion
+## Conclusion
 We learned about Dart Conditional Statements: If, If-Else and If-Else-If ladder.
 
-#Dart For Loop
+# Dart For Loop
 We will learn the syntax of for loop
-#####Syntax of Dart For Loop
+##### Syntax of Dart For Loop
 Following is the syntax of For Loop in Dart programming language.
 ```
 for (initialization; boolean_expression; update) {
@@ -230,7 +200,7 @@ for (initialization; boolean_expression; update) {
 
  }
 ```
-######In the following example, we will use Dart For Loop to calculate the factorial of a given number.
+###### In the following example, we will use Dart For Loop to calculate the factorial of a given number.
 ```
 void main(){ 
     var n = 6;
@@ -244,7 +214,7 @@ void main(){
     print('Factorial of ${n} is ${factorial}');
 }
 ```
-######Output
+###### Output
 
 `Factorial of 6 is 720`
 
@@ -259,26 +229,26 @@ cond(yes)->e
 cond(no)->op
 ```
 
-##Conclusion
+## Conclusion
 
 We learned the syntax and how to use for loop with the help of example progra.
 
-#Dart List
+# Dart List
 A List is simply an ordered group of objects.
-####Step 1 − Declaring a list
+#### Step 1 − Declaring a list
 
 The syntax for declaring a fixed length list is given below −
 ```
 var list_name = new List(initial_size)
 ```
 The above syntax creates a list of the specified size. The list cannot grow or shrink at runtime. Any attempt to resize the list will result in an exception.
-####Step 2 − Initializing a list
+#### Step 2 − Initializing a list
 
 The syntax for initializing a list is as given below −
 ```
 lst_name[index] = value;
 ```
-######Example
+###### Example
 ```
 void main() {
    var lst = new List(3);
@@ -288,28 +258,28 @@ void main() {
    print(lst);
 }
 ```
-######Output
+###### Output
 `[12, 13, 11]`
-###Growable List
+### Growable List
 A growable list’s length can change at run-time. The syntax for declaring and initializing a growable list is as given below −
-####Step 1 − Declaring a List
+#### Step 1 − Declaring a List
 - creates a list containing the specified values
 
 ```
 var list_name = [val1,val2,val3]
 ```
-######OR
+###### OR
 - creates a list of size zero
 
 ```
 var list_name = new List()
 ```
 
-####Step 2 − Initializing a List
+#### Step 2 − Initializing a List
 The index / subscript is used to reference the element that should be populated with a value. The syntax for initializing a list is as given below −
 
 `list_name[index] = value;`
-######Example
+###### Example
 
 The following example shows how to create a list of 3 elements.
 
@@ -319,10 +289,10 @@ void main() {
    print(num_list);
 }
 ```
-######Output
+###### Output
 `[1, 2, 3]`
 
-######Example
+###### Example
 
 The following example creates a zero-length list using the empty List() constructor. The `add()` function in the List class is used to dynamically add elements to the list.
 ```
@@ -333,7 +303,7 @@ void main() {
    print(lst);
 }
 ```
-######Output
+###### Output
 `[12, 13] `
 
 ## Was it helpful?
